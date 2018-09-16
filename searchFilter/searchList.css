@@ -1,0 +1,49 @@
+.search-header  {
+  text-align: center;
+}
+.input {
+  text-align: center;
+  width: 40%;
+  position: relative;
+  left: 30%;
+  height: auto;
+}
+
+
+/*  ul*/
+ .list-header {
+   list-style: none;
+  background-color: #fcf;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 20px;
+}
+/*  list header*/
+
+.list-header .sublist-header {
+  font-size: 30px;
+ background-color: #fff;
+ border-bottom: 1px solid #e0e0e0;
+}
+/*  list element*/
+.list-header a {
+  font-size: 20px;
+  background-color: #dfd;
+}
+
+
+
+
+
+
+ .collection-item {
+  padding-left: 30px;
+}
+
+
+.collection-item {
+  background-color: #fff;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+}

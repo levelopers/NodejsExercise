@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.css"> -->
+    <link rel="stylesheet" href="searchList.css">
+    <title>My Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="search-header">Search My Projects</h1>
+      <input class="input" type="text" id="filterInput" placeholder="type here....">
+
+      <ul id="names" class="list-header">
+        <li class="sublist-header">
+          <h5>H</h5>
+        </li>
+        <li class="list-item">
+          <a href="#">HTML5</a>
+        </li>
+        <li class="sublist-header">
+          <h5>C</h5>
+        </li>
+        <li class="list-item">
+          <a href="#">CSS</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <script type="text/javascript" >
+    //get input element
+      let filterInput = document.getElementById('filterInput');
+      //add event listener
+      filterInput.addEventListener('keyup',searchName)
+
+      //make function searchName
+      function searchName() {
+        let filterValue = document.getElementById('filterInput').value.toUpperCase();
+
+        //get ul
+        let ul = document.getElementById('names');
+        //get li return array-like nodelist
+        let li = ul.querySelectorAll('li.list-item');
+
+        //loop through list element
+        for (var i = 0; i < li.length; i++) {
+          //get content of tag a href and show current element atIndex 0
+          let a = li[i].getElementsByTagName('a')[0];
+          //if match
+          if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
+            li[i].style.display = '';
+          }else{
+            li[i].style.display = 'none';
+          }
+        }
+      }
+    </script>
+
+  </body>
+</html>
