@@ -5,7 +5,7 @@
 
     1. download file using git or .rar file
 
-    2. install node modules by npm ([click if you dont have](https://nodejs.org/en/))
+    2. install node modules by npm [click if you dont have] (https://nodejs.org/en/)
         cmd:
             npm install
     
