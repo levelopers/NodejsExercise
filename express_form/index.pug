@@ -1,0 +1,29 @@
+extends layout.pug
+
+block content
+  h1= title
+
+  div
+    p Fill out your info
+    form(method="post", action="/add")
+      div
+        input#name(type="text", name="name")
+        label Name
+      div
+        input#country(type="text", name="city")
+        label City
+      div
+        input#country(type="text", name="country")
+        label Country
+      div
+        input#birthday(type="text", name="birthday")
+        label Birthday
+      div
+        input#email(type="text", name="email")
+        label Email
+      div 
+        input#phone(type="text",name="phone")
+        lable Phone Number
+      button(type="submit") Submit
+    
+  img(src="./pug.jpg")

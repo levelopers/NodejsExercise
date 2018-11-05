@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    h1=title 
+
+    div
+        div
+        table 
+            thead
+                th name
+                th city
+                th country
+                th birthday
+                th email
+                th phone number
+            tbody
+                each item in items
+                    tr
+                        td #{item.name}
+                        td #{item.city}
+                        td #{item.country}
+                        td #{item.birthday}
+                        td #{item.email}
+                        td #{item.phoneNumber}
+            form(method="get",action="/")
+                button(type="submit") Home
+               
