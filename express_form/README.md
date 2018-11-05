@@ -23,7 +23,7 @@ npm and nodejs if you dont have on your computer [download](https://nodejs.org/e
 
 
     Nodejs version : v10.13.0
-    testing OS : windows 10 
+    testing OS : 64-bit windows 10 
 
 #### Description
     
