@@ -1,11 +1,15 @@
 # express form application
 #### ---using express without middleware
 
-#### Instruction
+### Instruction
+
+npm and nodejs if you dont have on your computer [download](https://nodejs.org/en/)
+    
+    
 
     1. download file using git or .rar file
 
-    2. install node modules by npm [click if you dont have] (https://nodejs.org/en/)
+    2. install node modules by npm           
         cmd:
             npm install
     
