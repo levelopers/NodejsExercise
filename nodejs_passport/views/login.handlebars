@@ -1,0 +1,33 @@
+<div class="login">
+  <div class="login-content">
+    {{#if success_msg}}
+    <div class="alert alert-success alert-dismissible">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+          aria-hidden="true">&times;</span>
+      </button>
+      {{success_msg}}
+    </div>
+    {{/if}}
+    {{#if error}}
+    <div class="alert alert-danger alert-dismissible">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+          aria-hidden="true">&times;</span>
+      </button>
+      {{error}}
+    </div>
+    {{/if}}
+    {{>form-login}}
+  </div>
+</div>
+
+<style>
+  .login {
+    display: flex;
+    justify-content: center
+  }
+  .login-content{
+    width: 50%;
+    padding: 5%;
+    border: 2px solid grey
+  }
+</style>
