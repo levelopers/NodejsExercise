@@ -1,23 +1,20 @@
-# express form application
-#### ---using express without middleware
+# express form 
+
+#### --- managing file data
 
 ### Instruction
 
-npm and nodejs if you dont have on your computer [download](https://nodejs.org/en/)
-    
-    
+    1. download express_form folder
 
-    1. download file using git or .rar file
-
-    2. install node modules by npm           
+    2. enter "./express_form" directory and install node modules          
         cmd:
             npm install
     
-    3. run application with node command 
+    3. run application 
         cmd:
             node examforms.js
 
-    4. open browser enter url
+    4. open URL 
         url:
             http://localhost:3000
 
