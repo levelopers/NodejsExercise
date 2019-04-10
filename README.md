@@ -9,6 +9,6 @@
 
 #### [3.nodejs_passport](./nodejs_passport)
 
-#### [4.jwt-authentication](../jwt-authentication)
+#### [4.jwt-authentication](http://github.com/levelopers/jwt-authentication)
 
 
